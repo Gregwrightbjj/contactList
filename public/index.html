@@ -2,12 +2,26 @@
 <html ng-app>
 <head>
 	<title>Contact List App</title>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body>
-<h1>Contact list App</h1>
+<div class="container">
+	<h1>Contact list App</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Number</th>
+			</tr>
+		</thead>
+	</table>
 
-<input ng-model="test">
-{{test}}
+	<input ng-model="test">
+	{{test}}
+</div>
 </body>
 </html>
