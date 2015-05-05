@@ -1,7 +1,3 @@
-# contactList
-
-Using MEAN stack to create a contact list. Basic Crud app that gives me exposre to full stack.
-
 # MEAN Stack RESTful API  - Contact List App
 <h2>MEAN Stack RESTful API  - Contact List App</h2>
 
