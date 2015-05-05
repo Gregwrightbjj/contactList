@@ -16,7 +16,7 @@ This repo contains the code for a RESTful API Contact List App that was built us
 
 Clone this repo using 
 
-    git clone git@github.com:michaelcheng429/meanstacktutorial.git
+    git clone git@github.com:Gregwrightbjj/contactList.git
 
 then install the Node modules with
 
