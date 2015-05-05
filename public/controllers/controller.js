@@ -25,7 +25,28 @@ var myApp = angular.module("myApp", [])
 		$http.delete("/contactList/" + id).success(function(response){
 			refresh()
 		})
+	};
+
+	$scope.edit = function(id){
+		console.log("edit" + id)
+		$http.get("/contactList/" + id).success(function(response){
+			$scope.contact = response;
+			
+
+		})
+	};
+
+	$scope.update = function(id){
+		console.log($scope.contact._id)
+		$http.put("/contactList/" + $scope.contact._id, $scope.contact).success(function(response){
+			refresh();
+		})
 	}
+
+	$scope.deselect = function(id){
+		$scope.contact = "";
+		}
+	
 	
 	
 }]);
