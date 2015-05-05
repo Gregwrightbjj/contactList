@@ -19,6 +19,10 @@ var myApp = angular.module("myApp", [])
 			refresh();
 		});
 	};
+
+	$scope.remove = function(id){
+		console.log(id);
+	}
 	
 	
 }]);
