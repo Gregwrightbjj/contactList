@@ -6,7 +6,11 @@ var myApp = angular.module("myApp", [])
 	$http.get("/contactList").success(function(response){
 		console.log("I go the data I requested")
 		$scope.contactList = response;
-	})
+	});
+
+	$scope.addContact = function(){
+		console.log($scope.contact)
+	}
 	
 	
 }]);
