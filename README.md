@@ -1,5 +1,4 @@
 # MEAN Stack RESTful API  - Contact List App
-<h2>MEAN Stack RESTful API  - Contact List App</h2>
 
 <img src="http://i288.photobucket.com/albums/ll175/michaelcheng429/meanstacktutorial_zpsu72ixs47.png" alt="mean stack tutorial app">
 
