@@ -1,14 +1,15 @@
 <!doctype html>
-<html ng-app>
+<html ng-app="myApp">
 <head>
 	<title>Contact List App</title>
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
+	<script src="controllers/controller.js"></script>
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body>
-<div class="container">
+<div class="container" ng-controller="AppCtrl">
 	<h1>Contact list App</h1>
 	<table class="table">
 		<thead>
